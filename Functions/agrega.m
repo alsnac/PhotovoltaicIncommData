@@ -5,6 +5,7 @@ function [Agregated] = agrega(S,horas)
     day = 60*horas;
 
     ia = 1;
+    disp(ia)
 
     for time=1:length(S)
 
